@@ -18,13 +18,8 @@ class CreateProductsTable extends Migration
             $table->string('name');
             $table->longText('description');
             $table->decimal('price');
-            $table->unsignedBigInteger('user_id');
+            $table->foreignId('user_id')->constrained()->cascadeOnDelete();
             $table->timestamps();
-
-            $table->foreign('user_id')
-                ->references('id')
-                ->on('users')
-                ->onDelete('cascade');
         });
     }
 

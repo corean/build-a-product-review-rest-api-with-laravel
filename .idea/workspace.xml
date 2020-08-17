@@ -10,21 +10,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="305c2bbe-5fd0-453d-aeac-6dd54869353c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProdectController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ReviewController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Prodect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Review.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/ProdectFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/ProductFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/ReviewFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_17_064512_create_products_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_17_064640_create_reviews_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ProductSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ReviewSeeder.php" afterDir="false" />
+    <list default="true" id="305c2bbe-5fd0-453d-aeac-6dd54869353c" name="Default Changelist" comment="- Model &#10;- cons">
+      <change afterPath="$PROJECT_DIR$/database/seeds/UserSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Review.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Review.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ProdectFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ProductFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ProductFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ReviewFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ReviewFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ProductSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ProductSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +169,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597646624584</updated>
-      <workItem from="1597646625605" duration="230000" />
+      <workItem from="1597646625605" duration="1905000" />
     </task>
     <task id="LOCAL-00001" summary="- project created">
       <created>1597646666768</created>
@@ -182,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597646666768</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- Model">
+      <created>1597647004477</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597647004477</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- Model &#10;- Constrained Cascade Changed">
+      <created>1597647268467</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597647268467</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,13 +214,15 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="- project created" />
-    <option name="LAST_COMMIT_MESSAGE" value="- project created" />
+    <MESSAGE value="- Model" />
+    <MESSAGE value="- Model &#10;- Constrained Cascade Changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Model &#10;- Constrained Cascade Changed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="677" y="474" key="CommitChangelistDialog2" timestamp="1597646666636">
+    <state x="677" y="474" width="1254" height="1003" key="CommitChangelistDialog2" timestamp="1597647268384">
       <screen x="0" y="23" width="3360" height="1867" />
     </state>
-    <state x="677" y="474" key="CommitChangelistDialog2/0.23.3360.1867/-3315.23.3315.1867@0.23.3360.1867" timestamp="1597646666636" />
+    <state x="677" y="474" width="1254" height="1003" key="CommitChangelistDialog2/0.23.3360.1867/-3315.23.3315.1867@0.23.3360.1867" timestamp="1597647268384" />
     <state x="785" y="460" width="670" height="676" key="search.everywhere.popup" timestamp="1597646845365">
       <screen x="0" y="23" width="3360" height="1867" />
     </state>
